@@ -6,8 +6,6 @@ public class Jumbah extends SupremeBoohbah{
 
     @Override
     public void command() {
-        System.out.println(name + " shouts: FOR THE REBELLION, NO MORE OPPRESSION!");
-        
+        System.out.println(name + " shouts: FOR THE REBELLION, NO MORE OPPRESSION!");        
     }
-    
 }

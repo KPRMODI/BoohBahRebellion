@@ -10,7 +10,7 @@ public class BoohbahRebellionTest {
 
         System.out.println("\n--- Overloaded Commands ---");
         boohbahs[1].command("Mannn I ain't listening to Zing Zing Zingbah, i'm finna do the belly flop.");
-        // I had to use ai for this command, for  some reason when running jingbahs command it doesnt take the boolean and you have to add (jingbah)
+        // Thank you for telling me to cast this I got very confused
         ((Jingbah) boohbahs[3]).command("Please, no fighting!", true);
     }
 }
