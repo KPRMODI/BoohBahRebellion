@@ -3,20 +3,20 @@ public class SupremeBoohbah{
 
     public SupremeBoohbah() {
         name = "Zing Zing Zingbah";
-        System.out.print( "SupremeBoohbah's power has awakened...");
+        System.out.println( "SupremeBoohbah's power has awakened... All must obey" + name + "!");
     }
 
     public void command(){
-        System.out.println("All Boohbahs must obey" + name);
+        System.out.println(name + "Orders to the Boohbahs: Obey my orders!");
     }
 
     public void command(String message){ //overload method 
-        System.out.println(message);
+        System.out.println(name + "Says " + message);
     }
 
     @Override
     public String toString(){
-        return "i am a boohbah";
+        return name + "Ruler and Awakened king of the new boohbah world...";
     }
     
 }

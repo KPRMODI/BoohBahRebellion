@@ -1,5 +1,14 @@
 public class Zumbah extends SupremeBoohbah{
     public Zumbah(){
-    super.command("Zumbah pretends to obey but still does his own things secretly");
+        super();
+        name = "Zumbah";
+        System.out.println(name + "pretends to obey but does whatever he wants.");
     }
+
+    @Override
+    public void command() {
+        super.command();
+        System.out.println(name + " fakes obedience but does the belly flop instead");
+    }
+    
 }
