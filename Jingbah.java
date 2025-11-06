@@ -2,21 +2,20 @@ public class Jingbah extends SupremeBoohbah{
     public Jingbah(){
         super();
         name = "Jingbah";
-        System.out.println(name + "Wants peace between the rebels and kingdom");
+        System.out.println(name + " wants peace between the rebels and kingdom.");
     }
 
     @Override
     public void command() {
-        super.command();
-        System.out.println(name + " Let's all calm down");
+        System.out.println(name + " says: Let's all calm down!");
     }
     
     public void command(String message, boolean whisper) {
         if (whisper == true){
-            System.out.println(name + "quietely says: dont fight pls!");
+            System.out.println(name + " softly says: " + message);
         }
         else {
-            System.out.println(name + "loudly says: STOP FIGHTING");
+            System.out.println(name + " shouts: " + message);
         }
     }
 }

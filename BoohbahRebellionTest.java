@@ -9,13 +9,8 @@ public class BoohbahRebellionTest {
         }
 
         System.out.println("\n--- Overloaded Commands ---");
-        // Call overloaded command from superclass
-        boohbahs[0].command("Dance in perfect unison!");
-
-        // Call Jingbah’s overloaded method
-        if (boohbahs[3] instanceof Jingbah) {
-            ((Jingbah) boohbahs[3]).command("Please, no fighting!", true);
-        }
-    
+        boohbahs[1].command("Mannn I ain't listening to Zing Zing Zingbah, i'm finna do the belly flop.");
+        // I had to use ai for this command, for  some reason when running jingbahs command it doesnt take the boolean and you have to add (jingbah)
+        ((Jingbah) boohbahs[3]).command("Please, no fighting!", true);
     }
 }

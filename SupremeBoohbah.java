@@ -1,22 +1,21 @@
 public class SupremeBoohbah{
-    protected String name;
+    protected String name; // name variable
 
     public SupremeBoohbah() {
         name = "Zing Zing Zingbah";
-        System.out.println( "SupremeBoohbah's power has awakened... All must obey" + name + "!");
+        System.out.println( "SupremeBoohbah's power has awakened... All must obey " + name + "!"); //prints each time
     }
 
     public void command(){
-        System.out.println(name + "Orders to the Boohbahs: Obey my orders!");
+        System.out.println(name + " Orders to the Boohbahs: Obey my orders!");
     }
 
     public void command(String message){ //overload method 
-        System.out.println(name + "Says " + message);
+        System.out.println(name + " proclaims: " + message);
     }
 
     @Override
     public String toString(){
-        return name + "Ruler and Awakened king of the new boohbah world...";
+        return name + " the ruler and awakened king of the new boohbah world...";
     }
-    
 }
