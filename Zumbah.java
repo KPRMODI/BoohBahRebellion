@@ -6,7 +6,7 @@ public class Zumbah extends SupremeBoohbah{
     }
 
     @Override
-    public void command() {
+    public void command() { //command for rebellion
         System.out.println(name + " fakes obedience but does the belly flop instead!");
     }
 }

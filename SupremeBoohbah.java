@@ -3,10 +3,10 @@ public class SupremeBoohbah{
 
     public SupremeBoohbah() {
         name = "Zing Zing Zingbah";
-        System.out.println( "SupremeBoohbah's power has awakened... All must obey " + name + "!"); //prints each time
+        System.out.println( "SupremeBoohbah's power has awakened... All must obey " + name + "!"); //prints each time for his awakening
     }
 
-    public void command(){
+    public void command(){ //he commands the boohbahs
         System.out.println(name + " Orders to the Boohbahs: Obey my orders!");
     }
 
@@ -15,7 +15,7 @@ public class SupremeBoohbah{
     }
 
     @Override
-    public String toString(){
+    public String toString(){ //overrides toString method
         return name + " the ruler and awakened king of the new boohbah world...";
     }
 }
